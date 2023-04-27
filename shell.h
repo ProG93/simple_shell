@@ -109,7 +109,7 @@ char *dup_chars(char *, int, int);
 char *find_path(bret_t *, char *, char *);
 int loopklint_a(char **);
 void _kro(char *);
-int _kor(char);
+int _kor(char c);
 int _putfd(char c, int fd);
 int _klint_e(char *str, int fd);
 int _strlen(char *);
