@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * _eputchar - function that writes the a char to stderr
+ * _kor - function that writes the a char to stderr
  * @c: passed in char
  *
  * Return: 1 or -1
  */
-int _eputchar(char c)
+int _kor(char c)
 {
 	static char b[WRITE_BUF_SIZE];
 	static int a;

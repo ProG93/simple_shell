@@ -65,11 +65,11 @@ int _klint_n(bret_t *bret)
 
 
 /**
- * populate_env_list - function that populates linked list
+ * w_d - function that populates linked list
  * @bret: passed structure
  * Return: 0
  */
-int populate_env_list(bret_t *bret)
+int w_d(bret_t *bret)
 {
 	list_t *b = NULL;
 	size_t a;
