@@ -7,7 +7,7 @@
  *
  * description: for shell
  *
- * Return: 0 or 1
+ * Return: 0 when is random or 1 when its positive
  */
 int main(int ac, char **av)
 {
