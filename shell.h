@@ -153,7 +153,7 @@ char *_getenv(bret_t *, const char *);
 int _myenv(bret_t *);
 int _klint_m(bret_t *);
 int _klint_n(bret_t *);
-int w_d(bret_t *);
+void w_d(bret_t *bret);
 char **get_environ(bret_t *);
 int _unsetenv(bret_t *, char *);
 int _setenv(bret_t *, char *, char *);
